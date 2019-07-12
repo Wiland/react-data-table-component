@@ -11,26 +11,70 @@ const TableColStyle = styled(Cell)`
   white-space: nowrap;
   color: ${props => props.theme.header.fontColor};
   min-height: ${props => props.theme.header.height};
-  ${props => props.sortable && 'cursor: pointer'};
 
   &::before {
-    margin-bottom: 1px;
     font-size: 12px;
     padding-right: 4px;
   }
 
-  ${props => props.sortable && props.sortDirection === 'desc' && !props.sortIcon &&
-    css`
-      &::before {
-        content: '\\25BC';
-      }
-  `};
-  ${props => props.sortable && props.sortDirection === 'asc' && !props.sortIcon &&
-    css`
-      &::before {
-        content: '\\25B2';
-      }
-  `};
+  &::after {
+    font-size: 12px;
+    padding-left: 4px;
+  }
+
+  &:hover {
+    ${props => props.column.sortable && 'cursor: pointer'};
+
+    ${props => (props.column.sortable && !props.sortable && !props.sortIcon
+      && (props.column.right
+        ?
+        css`
+          &::before {
+            content: '\\25BC';
+            color: #DDD;
+          }`
+        :
+        css`
+          &::after {
+            content: '\\25BC';
+            color: #DDD;
+          }`
+      ))};
+  }
+  ${props => props.sortable && !props.sortIcon
+    && (props.column.right ?
+      css`
+        &::before {
+          content: '\\25BC';
+          transition-duration: 1s;
+          transition-property: transform, padding;
+        }`
+      :
+      css`
+        &::after {
+          content: '\\25BC';
+          transition-duration: 1s;
+          transition-property: transform, padding;
+        }`
+    )};
+  ${props => props.sortable && props.sortDirection === 'asc' && !props.sortIcon
+    && (props.column.right ?
+      css`
+        &::before {
+          content: '\\25BC';
+          transform: rotate(180deg);
+          padding-left: 4px;
+          padding-right: 0;
+        }`
+      :
+      css`
+        &::after {
+          content: '\\25BC';
+          transform: rotate(-180deg);
+          padding-left: 0;
+          padding-right: 4px;
+        }`
+    )};
 `;
 
 const ColumnCellWrapper = styled.div`
@@ -51,7 +95,7 @@ const SortIcon = styled.span`
     flex-shrink: 0;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    transition-duration: 0.1s;
+    transition-duration: 1s;
     transition-property: transform;
   }
 
