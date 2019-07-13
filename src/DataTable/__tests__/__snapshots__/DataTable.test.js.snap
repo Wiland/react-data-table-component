@@ -103,7 +103,7 @@ exports[`DataTable::Header actions should render correctly 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -112,6 +112,9 @@ exports[`DataTable::Header actions should render correctly 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -205,6 +208,21 @@ exports[`DataTable::Header actions should render correctly 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -381,7 +399,7 @@ exports[`DataTable::Header actions should render correctly 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -556,7 +574,7 @@ exports[`DataTable::Header context menu should render correctly when selectableR
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -565,6 +583,9 @@ exports[`DataTable::Header context menu should render correctly when selectableR
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -654,6 +675,21 @@ exports[`DataTable::Header context menu should render correctly when selectableR
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c10 {
@@ -869,7 +905,7 @@ exports[`DataTable::Header context menu should render correctly when selectableR
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -1044,7 +1080,7 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -1053,6 +1089,9 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -1146,6 +1185,21 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -1314,7 +1368,7 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -1469,7 +1523,7 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
 }
 
 .c7 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -1478,6 +1532,9 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -1573,6 +1630,21 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
   transform: rotate(180deg);
 }
 
+.c6:hover .__rdt_custom_sort_icon i,
+.c6:active .__rdt_custom_sort_icon i,
+.c6:focus .__rdt_custom_sort_icon i,
+.c6:hover .__rdt_custom_sort_icon svg,
+.c6:active .__rdt_custom_sort_icon svg,
+.c6:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c6:hover .__rdt_native_sort_icon,
+.c6:active .__rdt_native_sort_icon,
+.c6:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
+}
+
 .c8 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1622,7 +1694,7 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
                 Test
               </div>
               <span
-                class="c7"
+                class="__rdt_native_sort_icon c7"
               >
                 ▲
               </span>
@@ -1777,7 +1849,7 @@ exports[`DataTable::Header title should render correctly 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -1786,6 +1858,9 @@ exports[`DataTable::Header title should render correctly 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -1879,6 +1954,21 @@ exports[`DataTable::Header title should render correctly 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -2047,7 +2137,7 @@ exports[`DataTable::Header title should render correctly 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -2226,7 +2316,7 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -2235,6 +2325,9 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -2328,6 +2421,21 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -2607,7 +2715,7 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -2932,7 +3040,7 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -2941,6 +3049,9 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -3034,6 +3145,21 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -3313,7 +3439,7 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -3679,7 +3805,7 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -3688,6 +3814,9 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -3777,6 +3906,21 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -3946,7 +4090,7 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -4215,7 +4359,7 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -4224,6 +4368,9 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -4313,6 +4460,21 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -4482,7 +4644,7 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -4689,7 +4851,7 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -4698,6 +4860,9 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -4795,6 +4960,21 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -4961,7 +5141,7 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -5116,7 +5296,7 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -5125,6 +5305,9 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -5218,6 +5401,21 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -5384,7 +5582,7 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -5539,7 +5737,7 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -5548,6 +5746,9 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -5641,6 +5842,21 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -5807,7 +6023,7 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -5966,7 +6182,7 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -5975,6 +6191,9 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -6072,6 +6291,21 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -6235,7 +6469,7 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
               id="column-some.name"
             >
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -6395,7 +6629,7 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -6404,6 +6638,9 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -6499,6 +6736,21 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -6665,7 +6917,7 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -6820,7 +7072,7 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -6829,6 +7081,9 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -6922,6 +7177,21 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -7088,7 +7358,7 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -7247,7 +7517,7 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -7256,6 +7526,9 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -7353,6 +7626,21 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -7519,7 +7807,7 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -7674,7 +7962,7 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -7683,6 +7971,9 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -7776,6 +8067,21 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -7942,7 +8248,7 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -8102,7 +8408,7 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -8111,6 +8417,9 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -8205,6 +8514,21 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -8371,7 +8695,7 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -8526,7 +8850,7 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -8535,6 +8859,9 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -8628,6 +8955,21 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -8794,7 +9136,7 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -8949,7 +9291,7 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -8958,6 +9300,9 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -9051,6 +9396,21 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -9217,7 +9577,7 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -9434,7 +9794,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -9443,6 +9803,9 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -9532,6 +9895,21 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -9701,7 +10079,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -9973,7 +10351,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -9982,6 +10360,9 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -10071,6 +10452,21 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -10240,7 +10636,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -10452,7 +10848,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -10461,6 +10857,9 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -10554,6 +10953,21 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -10722,7 +11136,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -10877,7 +11291,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -10886,6 +11300,9 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -10979,6 +11396,21 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -11147,7 +11579,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -11302,7 +11734,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -11311,6 +11743,9 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -11404,6 +11839,21 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -11574,7 +12024,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -11729,7 +12179,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -11738,6 +12188,9 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -11831,6 +12284,21 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -12001,7 +12469,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -12165,7 +12633,7 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -12174,6 +12642,9 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -12267,6 +12738,21 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -12433,7 +12919,7 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -12592,7 +13078,7 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -12601,6 +13087,9 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -12694,6 +13183,21 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -12860,7 +13364,7 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -13015,7 +13519,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -13024,6 +13528,9 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -13117,6 +13624,21 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -13305,7 +13827,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -13460,7 +13982,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -13469,6 +13991,9 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -13562,6 +14087,21 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -13754,7 +14294,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -13909,7 +14449,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -13918,6 +14458,9 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -14011,6 +14554,21 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -14197,7 +14755,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -14514,7 +15072,7 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -14523,6 +15081,9 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -14616,6 +15177,21 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -14804,7 +15380,7 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -14959,7 +15535,7 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -14968,6 +15544,9 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -15061,6 +15640,21 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -15229,7 +15823,7 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -15384,7 +15978,7 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -15393,6 +15987,9 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -15486,6 +16083,21 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -15652,7 +16264,7 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -15807,7 +16419,7 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -15816,6 +16428,9 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -15909,6 +16524,21 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -16074,7 +16704,7 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -16249,7 +16879,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -16258,6 +16888,9 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -16347,6 +16980,21 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c10 {
@@ -16552,7 +17200,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -16747,7 +17395,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -16756,6 +17404,9 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -16845,6 +17496,21 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c10 {
@@ -17050,7 +17716,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -17245,7 +17911,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -17254,6 +17920,9 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -17343,6 +18012,21 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c10 {
@@ -17550,7 +18234,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -17787,7 +18471,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -17796,6 +18480,9 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 1;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -17892,7 +18579,9 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
   transform: rotate(180deg);
 }
 
-.c12:hover {
+.c12:hover,
+.c12:active,
+.c12:focus {
   cursor: pointer;
 }
 
@@ -18063,7 +18752,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -18328,7 +19017,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -18337,6 +19026,9 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 1;
 }
 
@@ -18430,7 +19122,9 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
   transform: rotate(180deg);
 }
 
-.c12:hover {
+.c12:hover,
+.c12:active,
+.c12:focus {
   cursor: pointer;
 }
 
@@ -18601,7 +19295,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -18897,7 +19591,9 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
   transform: rotate(180deg);
 }
 
-.c11:hover {
+.c11:hover,
+.c11:active,
+.c11:focus {
   cursor: pointer;
 }
 
@@ -19222,7 +19918,7 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -19231,6 +19927,9 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 1;
 }
 
@@ -19328,7 +20027,9 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
   transform: rotate(180deg);
 }
 
-.c11:hover {
+.c11:hover,
+.c11:active,
+.c11:focus {
   cursor: pointer;
 }
 
@@ -19496,7 +20197,7 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -19651,7 +20352,7 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -19660,6 +20361,9 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 1;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -19760,7 +20464,9 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
   transform: rotate(180deg);
 }
 
-.c11:hover {
+.c11:hover,
+.c11:active,
+.c11:focus {
   cursor: pointer;
 }
 
@@ -19928,7 +20634,7 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -20087,7 +20793,7 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -20096,6 +20802,9 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -20189,6 +20898,21 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -20355,7 +21079,7 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -20510,7 +21234,7 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -20519,6 +21243,9 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -20612,6 +21339,21 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -20808,7 +21550,7 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -20963,7 +21705,7 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -20972,6 +21714,9 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -21065,6 +21810,21 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -21261,7 +22021,7 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -21416,7 +22176,7 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -21425,6 +22185,9 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -21518,6 +22281,21 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -21714,7 +22492,7 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -21869,7 +22647,7 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -21878,6 +22656,9 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -21971,6 +22752,21 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -22167,7 +22963,7 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -22322,7 +23118,7 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
 }
 
 .c13 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -22331,6 +23127,9 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -22424,6 +23223,21 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c12:hover .__rdt_custom_sort_icon i,
+.c12:active .__rdt_custom_sort_icon i,
+.c12:focus .__rdt_custom_sort_icon i,
+.c12:hover .__rdt_custom_sort_icon svg,
+.c12:active .__rdt_custom_sort_icon svg,
+.c12:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c12:hover .__rdt_native_sort_icon,
+.c12:active .__rdt_native_sort_icon,
+.c12:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -22620,7 +23434,7 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
                 Test
               </div>
               <span
-                class="c13"
+                class="__rdt_native_sort_icon c13"
               >
                 ▲
               </span>
@@ -22775,7 +23589,7 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -22784,6 +23598,9 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -22877,6 +23694,21 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -23043,7 +23875,7 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -23343,7 +24175,7 @@ exports[`should render correctly if the keyField is overriden 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -23352,6 +24184,9 @@ exports[`should render correctly if the keyField is overriden 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -23445,6 +24280,21 @@ exports[`should render correctly if the keyField is overriden 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -23611,7 +24461,7 @@ exports[`should render correctly if the keyField is overriden 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>
@@ -23751,7 +24601,7 @@ exports[`should render correctly when disabled 1`] = `
 }
 
 .c12 {
-  padding: 2px;
+  padding: 0 4px;
   color: inherit;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -23760,6 +24610,9 @@ exports[`should render correctly when disabled 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  -webkit-transition: 200ms -webkit-transform;
+  -webkit-transition: 200ms transform;
+  transition: 200ms transform;
   opacity: 0;
 }
 
@@ -23853,6 +24706,21 @@ exports[`should render correctly when disabled 1`] = `
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.c11:hover .__rdt_custom_sort_icon i,
+.c11:active .__rdt_custom_sort_icon i,
+.c11:focus .__rdt_custom_sort_icon i,
+.c11:hover .__rdt_custom_sort_icon svg,
+.c11:active .__rdt_custom_sort_icon svg,
+.c11:focus .__rdt_custom_sort_icon svg {
+  opacity: 0.5;
+}
+
+.c11:hover .__rdt_native_sort_icon,
+.c11:active .__rdt_native_sort_icon,
+.c11:focus .__rdt_native_sort_icon {
+  opacity: 0.5;
 }
 
 .c5 {
@@ -24020,7 +24888,7 @@ exports[`should render correctly when disabled 1`] = `
                 Test
               </div>
               <span
-                class="c12"
+                class="__rdt_native_sort_icon c12"
               >
                 ▲
               </span>

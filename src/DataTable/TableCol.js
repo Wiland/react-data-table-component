@@ -47,15 +47,17 @@ const ColumnSortable = styled.div`
     }
   }
 
-  &:hover {
+  &:hover, &:active, &:focus {
     ${({ column }) => column.sortable && 'cursor: pointer'};
 
-    future feature
     .__rdt_custom_sort_icon {
       i,
       svg {
         ${props => !props.sortActive && 'opacity: 0.5'};
       }
+    }
+    .__rdt_native_sort_icon {
+      ${props => !props.sortActive && 'opacity: 0.5'};
     }
   }
 `;
@@ -79,7 +81,7 @@ class TableCol extends PureComponent {
     const { sortDirection } = this.context;
 
     return (
-      <NativeSortIcon sortActive={sortActive} sortDirection={sortDirection} />
+      <NativeSortIcon sortActive={sortActive} sortDirection={sortDirection} className="__rdt_native_sort_icon" />
     );
   }
 
