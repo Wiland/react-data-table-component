@@ -3,105 +3,60 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 import { Cell } from './Cell';
 import { DataTableContext } from './DataTableContext';
+import NativeSortIcon from './NativeSortIcon';
+
+const activeColCSS = css`
+  font-weight: 600;
+  color: ${props => props.theme.header.fontColorActive};
+`;
 
 const TableColStyle = styled(Cell)`
-  font-size: ${props => props.theme.header.fontSize};
-  user-select: none;
-  font-weight: 500;
-  white-space: nowrap;
-  color: ${props => props.theme.header.fontColor};
   min-height: ${props => props.theme.header.height};
+`;
 
-  &::before {
-    font-size: 12px;
-    padding-right: 4px;
-  }
+const ColumnSortable = styled.div`
+  color: ${props => props.theme.header.fontColor};
+  font-size: ${props => props.theme.header.fontSize};
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  font-weight: 400;
+  line-height: 1;
+  user-select: none;
+  ${props => props.sortActive && activeColCSS};
 
-  &::after {
-    font-size: 12px;
-    padding-left: 4px;
+  .__rdt_custom_sort_icon {
+    i,
+    svg {
+      ${props => (props.sortActive ? 'opacity: 1' : 'opacity: 0')};
+      color: inherit;
+      font-size: 18px !important;
+      height: 18px !important;
+      width: 18px !important;
+      flex-grow: 0;
+      flex-shrink: 0;
+      backface-visibility: hidden;
+      transform-style: preserve-3d;
+      transition-duration: 125ms;
+      transition-property: transform;
+    }
+
+    &.asc i,
+    &.asc svg {
+      transform: rotate(180deg);
+    }
   }
 
   &:hover {
-    ${props => props.column.sortable && 'cursor: pointer'};
+    ${({ column }) => column.sortable && 'cursor: pointer'};
 
-    ${props => (props.column.sortable && !props.sortable && !props.sortIcon
-      && (props.column.right
-        ?
-        css`
-          &::before {
-            content: '\\25BC';
-            color: #DDD;
-          }`
-        :
-        css`
-          &::after {
-            content: '\\25BC';
-            color: #DDD;
-          }`
-      ))};
-  }
-  ${props => props.sortable && !props.sortIcon
-    && (props.column.right ?
-      css`
-        &::before {
-          content: '\\25BC';
-          transition-duration: 1s;
-          transition-property: transform, padding;
-        }`
-      :
-      css`
-        &::after {
-          content: '\\25BC';
-          transition-duration: 1s;
-          transition-property: transform, padding;
-        }`
-    )};
-  ${props => props.sortable && props.sortDirection === 'asc' && !props.sortIcon
-    && (props.column.right ?
-      css`
-        &::before {
-          content: '\\25BC';
-          transform: rotate(180deg);
-          padding-left: 4px;
-          padding-right: 0;
-        }`
-      :
-      css`
-        &::after {
-          content: '\\25BC';
-          transform: rotate(-180deg);
-          padding-left: 0;
-          padding-right: 4px;
-        }`
-    )};
-`;
-
-const ColumnCellWrapper = styled.div`
-  display: inline-flex;
-  align-items: center;
-  ${props => props.active && 'font-weight: 800'};
-`;
-
-const SortIcon = styled.span`
-  line-height: 1;
-
-  i,
-  svg {
-    font-size: 18px !important;
-    height: 18px !important;
-    width: 18px !important;
-    flex-grow: 0;
-    flex-shrink: 0;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-duration: 1s;
-    transition-property: transform;
-  }
-
-  &.asc i,
-  &.asc svg {
-    transform: rotate(180deg);
+    future feature
+    .__rdt_custom_sort_icon {
+      i,
+      svg {
+        ${props => !props.sortActive && 'opacity: 0.5'};
+      }
+    }
   }
 `;
 
@@ -111,44 +66,64 @@ class TableCol extends PureComponent {
     column: PropTypes.object.isRequired,
   };
 
-  // TODO: migrate to ueContext hook
   static contextType = DataTableContext;
 
   onColumnClick = e => {
-    const {
-      column,
-      onColumnClick,
-    } = this.props;
+    const { column, onColumnClick } = this.props;
     const { sortDirection } = this.context;
 
     onColumnClick(column, sortDirection, e);
   }
 
+  renderNativeSortIcon(sortActive) {
+    const { sortDirection } = this.context;
+
+    return (
+      <NativeSortIcon sortActive={sortActive} sortDirection={sortDirection} />
+    );
+  }
+
+  renderCustomSortIcon() {
+    const { sortIcon, sortDirection } = this.context;
+
+    return (
+      <span className={[sortDirection, '__rdt_custom_sort_icon'].join(' ')}>
+        {sortIcon}
+      </span>
+    );
+  }
+
   render() {
     const { column } = this.props;
-    const { sortIcon, sortColumn, sortDirection, internalCell } = this.context;
-    const sortable = column.sortable && sortColumn === column.selector;
+    const { sortIcon, sortColumn, internalCell } = this.context;
+    const sortActive = column.sortable && sortColumn === column.selector;
+    const nativeSortIconLeft = !sortIcon && !column.right;
+    const nativeSortIconRight = !sortIcon && column.right;
+    const customSortIconLeft = sortIcon && !column.right;
+    const customSortIconRight = sortIcon && column.right;
 
     return (
       <TableColStyle
-        id={`column-${column.selector}`}
-        onClick={this.onColumnClick}
-        sortable={sortable}
-        sortDirection={sortDirection}
-        sortIcon={sortIcon}
-        column={column}
-        internalCell={internalCell}
         className="rdt_TableCol"
+        column={column} // required by Cell.js
+        internalCell={internalCell} // required by Cell.js
       >
         {column.name && (
-          <ColumnCellWrapper active={sortable}>
-            {sortable && sortIcon && (
-              <SortIcon className={sortDirection}>
-                {sortIcon}
-              </SortIcon>
-            )}
-            {column.name}
-          </ColumnCellWrapper>
+          <ColumnSortable
+            id={`column-${column.selector}`}
+            className="rdt_TableCol_Sortable"
+            onClick={this.onColumnClick}
+            sortActive={sortActive}
+            column={column}
+          >
+            {customSortIconRight && this.renderCustomSortIcon()}
+            {nativeSortIconRight && this.renderNativeSortIcon(sortActive)}
+            <div>
+              {column.name}
+            </div>
+            {customSortIconLeft && this.renderCustomSortIcon()}
+            {nativeSortIconLeft && this.renderNativeSortIcon(sortActive)}
+          </ColumnSortable>
         )}
       </TableColStyle>
     );

@@ -108,7 +108,8 @@ Nothing new here - we are using an array of object literals and properties to de
 |--------------------------|---------------------|----------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | expandableRows | bool | no | false | Whether to make a row expandable, if true it requires an `expandableRowsComponent`. It is **highly recommended** your data set have a unique identifier defined as the `keyField` for row expansion to work properly.
 | expandableIcon | object | no | default expander icons | you may pass in your own custom icons using the `expandableIcon: { collapsed: <svg>...</svg>, expanded: <svg>...</svg>` |
-| expandableDisabledField | string | no |  | React Data Table looks for this property for each item in your data and checks if that item can be expanded or not. You must set a bool value in the `expandableDisabledField` of your data if you want to use this feature.
+| expandableDisabledField | string | no |  | React Data Table looks for this property in each item from your data and checks if that item can be expanded or not. You must set a bool value in the `expandableDisabledField` of your data if you want to use this feature.
+| defaultExpandedField | string | no |  | React Data Table looks for this property in each item from your data and checks if that item should be expanded on initial render. You must set a bool value in the `defaultExpandedField` field of your data if you want to use this feature.
 | expandableRowsComponent | string or component | no |  | A custom component to display in the expanded row. It will have the `data` prop composed  so that you may access the row data |
 
 #### Sorting
@@ -116,7 +117,7 @@ Nothing new here - we are using an array of object literals and properties to de
 |--------------------------|---------------------|----------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | defaultSortField | string | no |  | Setting this ensures the table data is presorted before it renders and the field(selector) is focused |
 | defaultSortAsc | bool | no | true  | set this to false if you want the table data to be sorted in DESC order |
-| sortIcon | component | no |  | Override the default sort icon - the icon must be a font or svg icon and it should be a "downward" icon since animation will be handled by React Data Table  |
+| sortIcon | component | no |  | Override the default sort icon - the icon must be a font or svg icon and it should be a "downward" icon since animation will be handled by React Data Table. note that when using a custom icon react data table will apply transition effects |
 | onSort | func | no |  | callback to access the sort state when a column is clicked. returns ([column](https://github.com/jbetancur/react-data-table-component#columns), sortDirection, event) |
 | sortFunction | func | no |  | pass in your own custom sort function e.g. `(rows, field, direction) => {...yourSortLogicHere}. you must return an array |
 
@@ -470,6 +471,7 @@ If you would like to customize the layout components of React Data Table using s
 * rdt_Table
 * rdt_TableRow
 * rdt_TableCol
+* rdt_TableCol_Sortable
 * rdt_TableCell
 * rdt_TableHeader
 * rdt_TableFooter
