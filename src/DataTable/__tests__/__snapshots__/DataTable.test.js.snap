@@ -160,6 +160,7 @@ exports[`DataTable::Header actions should render correctly 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -169,7 +170,6 @@ exports[`DataTable::Header actions should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -177,20 +177,13 @@ exports[`DataTable::Header actions should render correctly 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -203,8 +196,8 @@ exports[`DataTable::Header actions should render correctly 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -394,6 +387,7 @@ exports[`DataTable::Header actions should render correctly 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -627,6 +621,7 @@ exports[`DataTable::Header context menu should render correctly when selectableR
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -636,7 +631,6 @@ exports[`DataTable::Header context menu should render correctly when selectableR
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -644,20 +638,13 @@ exports[`DataTable::Header context menu should render correctly when selectableR
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -670,8 +657,8 @@ exports[`DataTable::Header context menu should render correctly when selectableR
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -900,6 +887,7 @@ exports[`DataTable::Header context menu should render correctly when selectableR
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -1137,6 +1125,7 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1146,7 +1135,6 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1154,20 +1142,13 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -1180,8 +1161,8 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -1363,6 +1344,7 @@ exports[`DataTable::Header contextTitle should render correctly 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -1580,6 +1562,7 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
 .c6 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1589,7 +1572,6 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1597,20 +1579,13 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
   user-select: none;
 }
 
-.c6 .__rdt_custom_sort_icon i,
-.c6 .__rdt_custom_sort_icon svg {
+.c6 span.__rdt_custom_sort_icon__ i,
+.c6 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -1623,8 +1598,8 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
   transition-property: transform;
 }
 
-.c6 .__rdt_custom_sort_icon.asc i,
-.c6 .__rdt_custom_sort_icon.asc svg {
+.c6 span.__rdt_custom_sort_icon__.asc i,
+.c6 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -1689,6 +1664,7 @@ exports[`DataTable::Header should render without a header if noHeader is true 1`
             <div
               class="rdt_TableCol_Sortable c6"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -1906,6 +1882,7 @@ exports[`DataTable::Header title should render correctly 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1915,7 +1892,6 @@ exports[`DataTable::Header title should render correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1923,20 +1899,13 @@ exports[`DataTable::Header title should render correctly 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -1949,8 +1918,8 @@ exports[`DataTable::Header title should render correctly 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -2132,6 +2101,7 @@ exports[`DataTable::Header title should render correctly 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -2373,6 +2343,7 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2382,7 +2353,6 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2390,20 +2360,13 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -2416,8 +2379,8 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -2710,6 +2673,7 @@ exports[`DataTable::Pagination should render correctly if pagination is enabled 
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -3097,6 +3061,7 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3106,7 +3071,6 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3114,20 +3078,13 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -3140,8 +3097,8 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -3434,6 +3391,7 @@ exports[`DataTable::Pagination should render correctly when a paginationComponen
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -3858,6 +3816,7 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3867,7 +3826,6 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3875,20 +3833,13 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -3901,8 +3852,8 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -4085,6 +4036,7 @@ exports[`DataTable::Theming should render correctly when rows spaced 1`] = `
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -4412,6 +4364,7 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4421,7 +4374,6 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4429,20 +4381,13 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -4455,8 +4400,8 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -4639,6 +4584,7 @@ exports[`DataTable::Theming should render correctly when rows spaced with spacin
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -4912,6 +4858,7 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4921,7 +4868,6 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4929,20 +4875,13 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -4955,8 +4894,8 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -5136,6 +5075,7 @@ exports[`DataTable::columns should render correctly if column.center 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -5353,6 +5293,7 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -5362,7 +5303,6 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5370,20 +5310,13 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -5396,8 +5329,8 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -5577,6 +5510,7 @@ exports[`DataTable::columns should render correctly if column.maxWidth 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -5794,6 +5728,7 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -5803,7 +5738,6 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5811,20 +5745,13 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -5837,8 +5764,8 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -6018,6 +5945,7 @@ exports[`DataTable::columns should render correctly if column.minWidth 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -6243,6 +6171,7 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -6252,7 +6181,6 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -6260,20 +6188,13 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -6286,8 +6207,8 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -6467,6 +6388,7 @@ exports[`DataTable::columns should render correctly if column.right 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <span
                 class="__rdt_native_sort_icon c12"
@@ -6688,6 +6610,7 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -6697,7 +6620,6 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -6705,20 +6627,13 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -6731,8 +6646,8 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -6912,6 +6827,7 @@ exports[`DataTable::columns should render correctly if column.width 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -7129,6 +7045,7 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -7138,7 +7055,6 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -7146,20 +7062,13 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -7172,8 +7081,8 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -7353,6 +7262,7 @@ exports[`DataTable::columns should render correctly when column.allowOverflow = 
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -7578,6 +7488,7 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -7587,7 +7498,6 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -7595,20 +7505,13 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -7621,8 +7524,8 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -7802,6 +7705,7 @@ exports[`DataTable::columns should render correctly when column.button = true 1`
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -8019,6 +7923,7 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8028,7 +7933,6 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -8036,20 +7940,13 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -8062,8 +7959,8 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -8243,6 +8140,7 @@ exports[`DataTable::columns should render correctly when column.cell is set to a
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -8466,6 +8364,7 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8475,7 +8374,6 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -8483,20 +8381,13 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -8509,8 +8400,8 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -8690,6 +8581,7 @@ exports[`DataTable::columns should render correctly when column.compact = true 1
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -8907,6 +8799,7 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8916,7 +8809,6 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -8924,20 +8816,13 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -8950,8 +8835,8 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -9131,6 +9016,7 @@ exports[`DataTable::columns should render correctly when column.wrap = true 1`] 
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -9348,6 +9234,7 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -9357,7 +9244,6 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -9365,20 +9251,13 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -9391,8 +9270,8 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -9572,6 +9451,7 @@ exports[`DataTable::columns should render correctly with columns/data 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -9847,6 +9727,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -9856,7 +9737,6 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -9864,20 +9744,13 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -9890,8 +9763,8 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -10074,6 +9947,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -10404,6 +10278,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -10413,7 +10288,6 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -10421,20 +10295,13 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -10447,8 +10314,8 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -10631,6 +10498,7 @@ exports[`DataTable::expandableRows should render correctly when expandableRows i
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -10905,6 +10773,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -10914,7 +10783,6 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -10922,20 +10790,13 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -10948,8 +10809,8 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -11131,6 +10992,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -11348,6 +11210,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -11357,7 +11220,6 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -11365,20 +11227,13 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -11391,8 +11246,8 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -11574,6 +11429,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader and fix
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -11791,6 +11647,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -11800,7 +11657,6 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -11808,20 +11664,13 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -11834,8 +11683,8 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -12019,6 +11868,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -12236,6 +12086,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -12245,7 +12096,6 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -12253,20 +12103,13 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -12279,8 +12122,8 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -12464,6 +12307,7 @@ exports[`DataTable::fixedHeader should render correctly when fixedHeader with an
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -12690,6 +12534,7 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -12699,7 +12544,6 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -12707,20 +12551,13 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -12733,8 +12570,8 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -12914,6 +12751,7 @@ exports[`DataTable::highlightOnHover should render correctly when highlightOnHov
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -13135,6 +12973,7 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -13144,7 +12983,6 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -13152,20 +12990,13 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -13178,8 +13009,8 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -13359,6 +13190,7 @@ exports[`DataTable::pointerOnHover should render correctly when pointerOnHover 1
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -13576,6 +13408,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -13585,7 +13418,6 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -13593,20 +13425,13 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -13619,8 +13444,8 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -13822,6 +13647,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -14039,6 +13865,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14048,7 +13875,6 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -14056,20 +13882,13 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -14082,8 +13901,8 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -14289,6 +14108,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -14506,6 +14326,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -14515,7 +14336,6 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -14523,20 +14343,13 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -14549,8 +14362,8 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -14750,6 +14563,7 @@ exports[`DataTable::progress/nodata should render correctly when a component is 
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -15129,6 +14943,7 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15138,7 +14953,6 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -15146,20 +14960,13 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -15172,8 +14979,8 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -15375,6 +15182,7 @@ exports[`DataTable::progress/nodata should render correctly when progressPending
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -15592,6 +15400,7 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -15601,7 +15410,6 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -15609,20 +15417,13 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -15635,8 +15436,8 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -15818,6 +15619,7 @@ exports[`DataTable::responsive should not apply overFlowY without an overflowYOf
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -16035,6 +15837,7 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -16044,7 +15847,6 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -16052,20 +15854,13 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -16078,8 +15873,8 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -16259,6 +16054,7 @@ exports[`DataTable::responsive should render correctly responsive by default 1`]
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -16476,6 +16272,7 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -16485,7 +16282,6 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -16493,20 +16289,13 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -16519,8 +16308,8 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -16699,6 +16488,7 @@ exports[`DataTable::responsive should render correctly when responsive=false 1`]
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -16932,6 +16722,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -16941,7 +16732,6 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -16949,20 +16739,13 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -16975,8 +16758,8 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -17195,6 +16978,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -17448,6 +17232,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -17457,7 +17242,6 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -17465,20 +17249,13 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -17491,8 +17268,8 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -17711,6 +17488,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -17964,6 +17742,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -17973,7 +17752,6 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -17981,20 +17759,13 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -18007,8 +17778,8 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -18229,6 +18000,7 @@ exports[`DataTable::selectableRows should render correctly when selectableRows i
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -18527,6 +18299,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -18536,30 +18309,21 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 600;
   color: rgba(0,0,0,.87);
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 1;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -18572,8 +18336,8 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -18583,6 +18347,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
 .c12:active,
 .c12:focus {
   cursor: pointer;
+  color: rgba(0,0,0,.87);
 }
 
 .c5 {
@@ -18747,6 +18512,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted from
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -19070,6 +18836,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -19079,30 +18846,21 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 600;
   color: rgba(0,0,0,.87);
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 1;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -19115,8 +18873,8 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -19126,6 +18884,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
 .c12:active,
 .c12:focus {
   cursor: pointer;
+  color: rgba(0,0,0,.87);
 }
 
 .c5 {
@@ -19290,6 +19049,7 @@ exports[`DataTable::sorting should render correctly when a column is sorted in d
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -19539,6 +19299,7 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -19548,30 +19309,21 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 600;
   color: rgba(0,0,0,.87);
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 1;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -19584,8 +19336,8 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -19595,6 +19347,7 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
 .c11:active,
 .c11:focus {
   cursor: pointer;
+  color: rgba(0,0,0,.87);
 }
 
 .c5 {
@@ -19756,12 +19509,13 @@ exports[`DataTable::sorting should render correctly with a custom sortIcon 1`] =
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
               </div>
               <span
-                class="asc __rdt_custom_sort_icon"
+                class="asc __rdt_custom_sort_icon__"
               >
                 <div>
                   ASC
@@ -19975,6 +19729,7 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -19984,30 +19739,21 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 600;
   color: rgba(0,0,0,.87);
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 1;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -20020,8 +19766,8 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -20031,6 +19777,7 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
 .c11:active,
 .c11:focus {
   cursor: pointer;
+  color: rgba(0,0,0,.87);
 }
 
 .c5 {
@@ -20192,6 +19939,7 @@ exports[`DataTable::sorting should render correctly with a default sort field 1`
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -20412,6 +20160,7 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -20421,30 +20170,21 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 600;
   color: rgba(0,0,0,.87);
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 1;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -20457,8 +20197,8 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -20468,6 +20208,7 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
 .c11:active,
 .c11:focus {
   cursor: pointer;
+  color: rgba(0,0,0,.87);
 }
 
 .c5 {
@@ -20629,6 +20370,7 @@ exports[`DataTable::sorting should render correctly with a defaultSortAsc = fals
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -20850,6 +20592,7 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -20859,7 +20602,6 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -20867,20 +20609,13 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -20893,8 +20628,8 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -21074,6 +20809,7 @@ exports[`DataTable::striped should render correctly when striped 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -21291,6 +21027,7 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -21300,7 +21037,6 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -21308,20 +21044,13 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -21334,8 +21063,8 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -21545,6 +21274,7 @@ exports[`DataTablke::subHeader should render correctly when a subheader is enabl
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -21762,6 +21492,7 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -21771,7 +21502,6 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -21779,20 +21509,13 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -21805,8 +21528,8 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -22016,6 +21739,7 @@ exports[`DataTablke::subHeader should render correctly with center align 1`] = `
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -22233,6 +21957,7 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -22242,7 +21967,6 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -22250,20 +21974,13 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -22276,8 +21993,8 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -22487,6 +22204,7 @@ exports[`DataTablke::subHeader should render correctly with left align 1`] = `
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -22704,6 +22422,7 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -22713,7 +22432,6 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -22721,20 +22439,13 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -22747,8 +22458,8 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -22958,6 +22669,7 @@ exports[`DataTablke::subHeader should render correctly with right align 1`] = `
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -23175,6 +22887,7 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
 .c12 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -23184,7 +22897,6 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -23192,20 +22904,13 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
   user-select: none;
 }
 
-.c12 .__rdt_custom_sort_icon i,
-.c12 .__rdt_custom_sort_icon svg {
+.c12 span.__rdt_custom_sort_icon__ i,
+.c12 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -23218,8 +22923,8 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
   transition-property: transform;
 }
 
-.c12 .__rdt_custom_sort_icon.asc i,
-.c12 .__rdt_custom_sort_icon.asc svg {
+.c12 span.__rdt_custom_sort_icon__.asc i,
+.c12 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -23429,6 +23134,7 @@ exports[`DataTablke::subHeader should render when subHeaderWrap is false 1`] = `
             <div
               class="rdt_TableCol_Sortable c12"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -23646,6 +23352,7 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -23655,7 +23362,6 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -23663,20 +23369,13 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -23689,8 +23388,8 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -23870,6 +23569,7 @@ exports[`data prop changes should update state if the data prop changes 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -24232,6 +23932,7 @@ exports[`should render correctly if the keyField is overriden 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -24241,7 +23942,6 @@ exports[`should render correctly if the keyField is overriden 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -24249,20 +23949,13 @@ exports[`should render correctly if the keyField is overriden 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -24275,8 +23968,8 @@ exports[`should render correctly if the keyField is overriden 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -24456,6 +24149,7 @@ exports[`should render correctly if the keyField is overriden 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
@@ -24658,6 +24352,7 @@ exports[`should render correctly when disabled 1`] = `
 .c11 {
   color: rgba(0,0,0,.54);
   font-size: 12px;
+  font-weight: 500;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -24667,7 +24362,6 @@ exports[`should render correctly when disabled 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  font-weight: 400;
   line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -24675,20 +24369,13 @@ exports[`should render correctly when disabled 1`] = `
   user-select: none;
 }
 
-.c11 .__rdt_custom_sort_icon i,
-.c11 .__rdt_custom_sort_icon svg {
+.c11 span.__rdt_custom_sort_icon__ i,
+.c11 span.__rdt_custom_sort_icon__ svg {
   opacity: 0;
   color: inherit;
   font-size: 18px !important;
   height: 18px !important;
   width: 18px !important;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
@@ -24701,8 +24388,8 @@ exports[`should render correctly when disabled 1`] = `
   transition-property: transform;
 }
 
-.c11 .__rdt_custom_sort_icon.asc i,
-.c11 .__rdt_custom_sort_icon.asc svg {
+.c11 span.__rdt_custom_sort_icon__.asc i,
+.c11 span.__rdt_custom_sort_icon__.asc svg {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -24883,6 +24570,7 @@ exports[`should render correctly when disabled 1`] = `
             <div
               class="rdt_TableCol_Sortable c11"
               id="column-some.name"
+              role="button"
             >
               <div>
                 Test
